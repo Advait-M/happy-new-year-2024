@@ -17,11 +17,6 @@ def demo(screen):
     effects = [
         Background(screen, bg=bg),
         Stars(screen, screen.width)
-        # Print(screen,
-        #       SpeechBubble("Press space to see it again"),
-        #       bg=bg,
-        #       y=screen.height - 3,
-        #       start_frame=300)
     ]
     for _ in range(20):
         fireworks = [
@@ -46,18 +41,24 @@ def demo(screen):
                      randint(0, screen.width),
                      randint(screen.height // 8, screen.height * 3 // 4),
                      randint(start, stop),
-                     # transparent=True,      
                      start_frame=randint(0, 250)))
 
     effects.append(Print(screen,
                          Rainbow(screen, FigletText("HAPPY")),
-                         screen.height // 2 - 6,
+                         screen.height // 2 - 13,
                          bg=bg,
                          transparent=True,
                          speed=1,
                          start_frame=100))
     effects.append(Print(screen,
                          Rainbow(screen, FigletText("NEW YEAR!")),
+                         screen.height // 2 - 6,
+                         bg=bg,
+                         transparent=True,
+                         speed=1,
+                         start_frame=100))
+    effects.append(Print(screen,
+                         Rainbow(screen, FigletText("2024")),
                          screen.height // 2 + 1,
                          bg=bg,
                          transparent=True,

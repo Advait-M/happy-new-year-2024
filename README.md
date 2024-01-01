@@ -5,4 +5,4 @@ A little ASCII art terminal program to wish Happy New Year with fireworks 🎆! 
 
 **How to run:** Simply run `python3 happy_new_year.py` after `pip3 install asciimatics`
 
-Note: I've modified certain components of asciimatics since the stars/fireworks effects don't support transparent backgrounds (default terminal background) out-of-the-box for asciimatics.
+Note: I've modified certain components of `asciimatics` (particles/effects) since the stars/fireworks effects don't support transparent backgrounds (default terminal background) out-of-the-box for asciimatics.

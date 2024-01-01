@@ -7,4 +7,4 @@ A little ASCII art terminal program to wish Happy New Year with fireworks 🎆! 
 
 Note: I've modified certain components of `asciimatics` (particles/effects) since the stars/fireworks effects don't support transparent backgrounds (default terminal background) out-of-the-box for asciimatics.
 
-Credits to asciimatics for most of the work and underlying rendering here! 💙
+Credits to [asciimatics](https://github.com/peterbrittain/asciimatics) for most of the work and underlying rendering here! 💙

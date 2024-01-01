@@ -1,7 +1,8 @@
 # Happy New Year!
 A little ASCII art terminal program to wish Happy New Year with fireworks 🎆! Cheers to 2024!
 
-![happy_new_year_warp](https://github.com/Advait-M/happy-new-year-2024/assets/12927474/88ace24d-c007-449f-8371-ee709dfb981f)
+![happy_new_year_warp](https://github.com/Advait-M/happy-new-year-2024/assets/12927474/88ace24d-c007-449f-8371-ee709dfb981f)\
+_Running the ASCII animation in [Warp](https://www.warp.dev/)!_
 
 **How to run:** Simply run `python3 happy_new_year.py` after `pip3 install asciimatics`.
 
